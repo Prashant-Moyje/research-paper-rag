@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.env
+data/index/
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+
+# Build artifacts
+*.zip
+
+# Original assignment brief (not part of the deliverable)
+Information.txt

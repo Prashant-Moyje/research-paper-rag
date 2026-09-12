@@ -1,0 +1,28 @@
+# ---- Core ingestion ----
+pypdf==6.1.3                  # PDF text extraction (pure-python, verified on this corpus)
+
+# ---- Embeddings (local, CPU) ----
+sentence-transformers>=6.0.0  # pulls torch + transformers
+numpy>=2.0
+
+# ---- Retrieval ----
+rank-bm25>=0.2.2              # lexical retrieval for hybrid search (Stage 4)
+
+# ---- Generation ----
+requests>=2.32                # Ollama HTTP client (no heavy SDK needed)
+
+# ---- Config ----
+python-dotenv>=1.0
+
+# ---- UI ----
+streamlit>=1.40
+
+# ---- Optional: alternative vector store -------------------------------------
+# The default store is an exact NumPy cosine index (see rag_papers/ingest/store.py).
+# At ~132 chunks it is exact and instant; ChromaDB would pull kubernetes, grpcio,
+# onnxruntime and opentelemetry for no measurable benefit. Install only if you
+# want to demo the Chroma backend:  pip install chromadb
+# chromadb>=1.0
+
+# ---- Dev ----
+pytest>=8.0

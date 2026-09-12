@@ -1,0 +1,406 @@
+{
+  "k": 5,
+  "n_questions": 14,
+  "reports": [
+    {
+      "name": "dense",
+      "hit_rate": 0.7857142857142857,
+      "p_at_1": 0.6428571428571429,
+      "mrr": 0.680952380952381,
+      "recall": 0.75,
+      "mean_latency_ms": 22.140435703996836,
+      "per_question": [
+        {
+          "qid": "S1",
+          "hit": true,
+          "first_rank": 1,
+          "recall": 0.5,
+          "sections_found": [
+            "2 Methods",
+            "2.1 Models"
+          ]
+        },
+        {
+          "qid": "S2",
+          "hit": true,
+          "first_rank": 1,
+          "recall": 1.0,
+          "sections_found": [
+            "3.1 Encoder and Decoder Stacks"
+          ]
+        },
+        {
+          "qid": "S3",
+          "hit": true,
+          "first_rank": 1,
+          "recall": 1.0,
+          "sections_found": [
+            "3.5 Positional Encoding"
+          ]
+        },
+        {
+          "qid": "S4",
+          "hit": true,
+          "first_rank": 3,
+          "recall": 1.0,
+          "sections_found": [
+            "3.2.2 Multi-Head Attention"
+          ]
+        },
+        {
+          "qid": "S5",
+          "hit": true,
+          "first_rank": 1,
+          "recall": 1.0,
+          "sections_found": [
+            "2 Approach"
+          ]
+        },
+        {
+          "qid": "T1",
+          "hit": true,
+          "first_rank": 1,
+          "recall": 1.0,
+          "sections_found": [
+            "5.3 Optimizer"
+          ]
+        },
+        {
+          "qid": "T2",
+          "hit": true,
+          "first_rank": 1,
+          "recall": 1.0,
+          "sections_found": [
+            "3.2.1 Scaled Dot-Product Attention"
+          ]
+        },
+        {
+          "qid": "T3",
+          "hit": true,
+          "first_rank": 1,
+          "recall": 1.0,
+          "sections_found": [
+            "4 Why Self-Attention"
+          ]
+        },
+        {
+          "qid": "R1",
+          "hit": false,
+          "first_rank": null,
+          "recall": 0.0,
+          "sections_found": []
+        },
+        {
+          "qid": "R2",
+          "hit": false,
+          "first_rank": null,
+          "recall": 0.0,
+          "sections_found": []
+        },
+        {
+          "qid": "R3",
+          "hit": true,
+          "first_rank": 1,
+          "recall": 1.0,
+          "sections_found": [
+            "2.1 Models"
+          ]
+        },
+        {
+          "qid": "G1",
+          "hit": true,
+          "first_rank": 5,
+          "recall": 1.0,
+          "sections_found": [
+            "2.1 Model and Architectures"
+          ]
+        },
+        {
+          "qid": "G2",
+          "hit": false,
+          "first_rank": null,
+          "recall": 0.0,
+          "sections_found": []
+        },
+        {
+          "qid": "G3",
+          "hit": true,
+          "first_rank": 1,
+          "recall": 1.0,
+          "sections_found": [
+            "5 Limitations"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "bm25",
+      "hit_rate": 0.9285714285714286,
+      "p_at_1": 0.5,
+      "mrr": 0.6928571428571428,
+      "recall": 0.875,
+      "mean_latency_ms": 0.5315214179323188,
+      "per_question": [
+        {
+          "qid": "S1",
+          "hit": true,
+          "first_rank": 2,
+          "recall": 0.25,
+          "sections_found": [
+            "2 Methods"
+          ]
+        },
+        {
+          "qid": "S2",
+          "hit": true,
+          "first_rank": 1,
+          "recall": 1.0,
+          "sections_found": [
+            "3.1 Encoder and Decoder Stacks"
+          ]
+        },
+        {
+          "qid": "S3",
+          "hit": true,
+          "first_rank": 1,
+          "recall": 1.0,
+          "sections_found": [
+            "3.5 Positional Encoding"
+          ]
+        },
+        {
+          "qid": "S4",
+          "hit": true,
+          "first_rank": 1,
+          "recall": 1.0,
+          "sections_found": [
+            "3.2.2 Multi-Head Attention"
+          ]
+        },
+        {
+          "qid": "S5",
+          "hit": true,
+          "first_rank": 5,
+          "recall": 1.0,
+          "sections_found": [
+            "2 Approach"
+          ]
+        },
+        {
+          "qid": "T1",
+          "hit": true,
+          "first_rank": 1,
+          "recall": 1.0,
+          "sections_found": [
+            "5.3 Optimizer"
+          ]
+        },
+        {
+          "qid": "T2",
+          "hit": true,
+          "first_rank": 2,
+          "recall": 1.0,
+          "sections_found": [
+            "3.2.1 Scaled Dot-Product Attention"
+          ]
+        },
+        {
+          "qid": "T3",
+          "hit": true,
+          "first_rank": 1,
+          "recall": 1.0,
+          "sections_found": [
+            "4 Why Self-Attention"
+          ]
+        },
+        {
+          "qid": "R1",
+          "hit": true,
+          "first_rank": 1,
+          "recall": 1.0,
+          "sections_found": [
+            "2.2 Retriever: DPR"
+          ]
+        },
+        {
+          "qid": "R2",
+          "hit": false,
+          "first_rank": null,
+          "recall": 0.0,
+          "sections_found": []
+        },
+        {
+          "qid": "R3",
+          "hit": true,
+          "first_rank": 1,
+          "recall": 1.0,
+          "sections_found": [
+            "2.1 Models"
+          ]
+        },
+        {
+          "qid": "G1",
+          "hit": true,
+          "first_rank": 2,
+          "recall": 1.0,
+          "sections_found": [
+            "2.1 Model and Architectures"
+          ]
+        },
+        {
+          "qid": "G2",
+          "hit": true,
+          "first_rank": 2,
+          "recall": 1.0,
+          "sections_found": [
+            "2.2 Training Dataset"
+          ]
+        },
+        {
+          "qid": "G3",
+          "hit": true,
+          "first_rank": 2,
+          "recall": 1.0,
+          "sections_found": [
+            "5 Limitations"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "hybrid (RRF)",
+      "hit_rate": 0.9285714285714286,
+      "p_at_1": 0.7857142857142857,
+      "mrr": 0.8392857142857143,
+      "recall": 0.8928571428571429,
+      "mean_latency_ms": 22.293514281045645,
+      "per_question": [
+        {
+          "qid": "S1",
+          "hit": true,
+          "first_rank": 1,
+          "recall": 0.5,
+          "sections_found": [
+            "2 Methods",
+            "2.1 Models"
+          ]
+        },
+        {
+          "qid": "S2",
+          "hit": true,
+          "first_rank": 1,
+          "recall": 1.0,
+          "sections_found": [
+            "3.1 Encoder and Decoder Stacks"
+          ]
+        },
+        {
+          "qid": "S3",
+          "hit": true,
+          "first_rank": 1,
+          "recall": 1.0,
+          "sections_found": [
+            "3.5 Positional Encoding"
+          ]
+        },
+        {
+          "qid": "S4",
+          "hit": true,
+          "first_rank": 1,
+          "recall": 1.0,
+          "sections_found": [
+            "3.2.2 Multi-Head Attention"
+          ]
+        },
+        {
+          "qid": "S5",
+          "hit": true,
+          "first_rank": 2,
+          "recall": 1.0,
+          "sections_found": [
+            "2 Approach"
+          ]
+        },
+        {
+          "qid": "T1",
+          "hit": true,
+          "first_rank": 1,
+          "recall": 1.0,
+          "sections_found": [
+            "5.3 Optimizer"
+          ]
+        },
+        {
+          "qid": "T2",
+          "hit": true,
+          "first_rank": 1,
+          "recall": 1.0,
+          "sections_found": [
+            "3.2.1 Scaled Dot-Product Attention"
+          ]
+        },
+        {
+          "qid": "T3",
+          "hit": true,
+          "first_rank": 1,
+          "recall": 1.0,
+          "sections_found": [
+            "4 Why Self-Attention"
+          ]
+        },
+        {
+          "qid": "R1",
+          "hit": true,
+          "first_rank": 4,
+          "recall": 1.0,
+          "sections_found": [
+            "2.2 Retriever: DPR"
+          ]
+        },
+        {
+          "qid": "R2",
+          "hit": false,
+          "first_rank": null,
+          "recall": 0.0,
+          "sections_found": []
+        },
+        {
+          "qid": "R3",
+          "hit": true,
+          "first_rank": 1,
+          "recall": 1.0,
+          "sections_found": [
+            "2.1 Models"
+          ]
+        },
+        {
+          "qid": "G1",
+          "hit": true,
+          "first_rank": 1,
+          "recall": 1.0,
+          "sections_found": [
+            "2.1 Model and Architectures"
+          ]
+        },
+        {
+          "qid": "G2",
+          "hit": true,
+          "first_rank": 1,
+          "recall": 1.0,
+          "sections_found": [
+            "2.2 Training Dataset"
+          ]
+        },
+        {
+          "qid": "G3",
+          "hit": true,
+          "first_rank": 1,
+          "recall": 1.0,
+          "sections_found": [
+            "5 Limitations"
+          ]
+        }
+      ]
+    }
+  ]
+}
